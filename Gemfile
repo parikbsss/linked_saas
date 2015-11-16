@@ -13,7 +13,9 @@ group :production do
 end
 
 # Use bootstrap library for style
-gem 'bootstrap-sass', '~> 3.3.1'
+gem 'bootstrap-sass', '3.3.1'
+# Font awesome library for icons
+gem "font-awesome-rails", '4.2.0'
 # Use SCSS for stylesheets
 gem 'sass-rails', '4.0.3'
 # Use Uglifier as compressor for JavaScript assets
